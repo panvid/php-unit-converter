@@ -1,0 +1,23 @@
+{
+    "name": "panvid/php-unit-converter",
+    "description": "Calculate the perfect representation of an value with unit.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "9.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Panvid\\UnitConverter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Pauli",
+            "email": "bepeppered@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "7.4.* || 8.0.* || 8.1.*"
+    }
+}
